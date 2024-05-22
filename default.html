@@ -82,14 +82,14 @@
     <main>
       <!-- Header/Home -->
       <header class="w3-container w3-padding-32 w3-center w3-black" id="home">
-        <h1 class="w3-jumbo"><span class="w3-hide-small">Welcome by </span>Cláudio</h1>
+        <h1 class="w3-jumbo">Welcome by Cláudio</span></h1>
         <p>Analista e Desenvolvedor Web</p>
         <!-- <img src="https://www.w3schools.com/w3images/man_smoke.jpg" alt="boy" class="w3-image" width="992" height="1108"> -->
       </header>
 
       <!-- About Section -->
       <div class="w3-content w3-justify w3-text-grey w3-padding-64" id="about">
-        <h2 class="w3-text-light-grey">Cláudio José Caetano Ramos</h2>
+        <h2 class="w3-text-light-grey w3-hide-small">Cláudio José Caetano Ramos</h2>
         <hr style="width:200px" class="w3-opacity">
         <p>
           Profissional com um percurso de três anos na área de análise e desenvolvimento de
@@ -323,8 +323,91 @@
           </div>
         </div>
 
+        <!-- Projetos responsivo mobile -->
+        <div id="carouselExample2" class="carousel w3-hide-large w3-hide-medium">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <div class="cards-wrapper">
+                <div class="card" style="width: 20rem;">
+                  <img src="img\projects\projeto_pokedex.png" width="90" class="card-img-top" alt="pokedex">
+                  <div class="card-body">
+                    <h5 class="card-title">Pokédex</h5>
+                    <p class="card-text">
+                      Desenvolvimento de uma réplica web da icônica Pokédex do anime Pokémon. O projeto foi realizado
+                      utilizando uma API externa para consultar e exibir informações detalhadas sobre mais de 100 mil
+                      Pokémon.
+                    </p>
+                    <a href="https://cjramos-shift.github.io/pokedex/" class="w3-button w3-black w3-padding-large"
+                      target="_blank"><i class="fa fa-github w3-hover-opacity"></i> Visualizar</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="carousel-item">
+              <div class="cards-wrapper">
+                <div class="card" style="width: 20rem;">
+                  <img src="img\projects\conversor_alura.png" class="card-img-top" alt="Sistema_Ocorrencias">
+                  <div class="card-body">
+                    <h5 class="card-title">Conversor de moeda</h5>
+                    <p class="card-text">Programa simples de conversão de moedas. Foi proposto pela Alura, em uma master
+                      class de HTML, CSS e JS,
+                      a ideia de implementação de uma tela para conversão da moeda brasileira (R$) para a moeda
+                      americana (US$).
+                    </p>
+                    <a href="https://cjramos-shift.github.io/Conversor_Alura/ConversorMoedaAlura.html"
+                      class="w3-button w3-black w3-padding-large" target="_blank"><i
+                        class="fa fa-github w3-hover-opacity"></i> Visualizar</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="carousel-item">
+              <div class="cards-wrapper">
+                <div class="card" style="width: 20rem;">
+                  <img src="img\projects\desenvolvimento.jpg" class="card-img-top" alt="Sistema_Ocorrencias">
+                  <div class="card-body">
+                    <h5 class="card-title">Sistema de ocorrências</h5>
+                    <p class="card-text">Sistema de desenvolvimento totalmente parametrizavel, com uma tela dinâmica de
+                      carregamento de elementos.</p>
+                    <button href="#" class="w3-button w3-black w3-padding-large" disabled>Em desenvolvimento</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="carousel-item">
+              <div class="cards-wrapper">
+                <div class="card" style="width: 20rem;">
+                  <img src="img\projects\desenvolvimento.jpg" class="card-img-top" alt="Futuro">
+                  <div class="card-body">
+                    <h5 class="card-title">Mais projetos em breve</h5>
+                    <p class="card-text"></p>
+                    <!-- <a href="#"
+                    class="w3-button w3-black w3-padding-large" target="_blank"><i
+                      class="fa fa-github w3-hover-opacity"></i>Visualizar</a> -->
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div>
+
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample2" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExample2" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </div>
+        <!-- Projetos responsivo mobile -->
       </div>
-      <!--  End photo grid -->
       <!-- End Portfolio Section -->
 
       <!-- Contact Section -->
@@ -371,6 +454,7 @@
           </div>
           <br>
         </div>
+
         <!-- <p>Entre em contato comigo:</p> -->
 
 
